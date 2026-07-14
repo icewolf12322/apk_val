@@ -1,0 +1,278 @@
+{
+  "back": "Retour",
+  "mainMenu": {
+    "hotelButton": "L'HÔTEL",
+    "restaurantButton": "LE RESTAURANT",
+    "historyButton": "NOTRE HISTOIRE",
+    "infosButton": "INFOS UTILES",
+    "quote": "\"Au cœur des Ardennes, là où la cascade chante\""
+  },
+  "bottomNav": {
+    "home": "Accueil",
+    "hotel": "Hôtel",
+    "restaurant": "Restaurant",
+    "infos": "Infos"
+  },
+  "history": {
+    "title": "Notre Histoire",
+    "subtitle": "✦ Depuis 1959, près de la Cascade de Coo ✦",
+    "header": {
+      "title": "65 ans d'hospitalité ardennaise",
+      "text": "Fondé en 1959 par la famille Constant et niché au cœur de Petit Coo, à deux pas de la célèbre cascade, le Val de la Cascade s'est construit sur une philosophie simple mais exigeante : offrir une cuisine qui célèbre les producteurs artisans locaux, une hospitalité sincère, et une table qui évolue au rythme des saisons.",
+      "signature": "— Famille Constant"
+    },
+    "timelineTitle": "Chronologie",
+    "timeline": {
+      "1959": {
+        "title": "La naissance du Val",
+        "desc": "La famille Constant ouvre les portes du Val de la Cascade à Petit Coo, Stavelot. L'établissement s'installe dans ce cadre exceptionnel, bercé par le son de la cascade voisine. Colette, la fondatrice, donne le ton : une maison chaleureuse, une table généreuse."
+      },
+      "70s": {
+        "title": "La réputation s'étend",
+        "desc": "L'établissement gagne en notoriété dans toute l'Ardenne. La cuisine du terroir — gibier, truites, bières d'abbaye — attire une clientèle fidèle. La brasserie et le restaurant gastronomique se distinguent peu à peu comme deux offres complémentaires."
+      },
+      "90s": {
+        "title": "Philippe prend les rênes",
+        "desc": "À seulement 22 ans, Philippe Constant reprend l'affaire familiale avec son épouse Nathalie. Un pari audacieux dans un secteur qualifié de 'très difficile', relevé avec passion et rigueur. Ensemble, ils impriment leur vision : une cuisine de saison, des producteurs artisans à l'honneur."
+      },
+      "2000s": {
+        "title": "Développement de l'hébergement",
+        "desc": "Extension et modernisation des 18 chambres de l'hôtel et de l'auberge. Création des gîtes pour accueillir les familles et les groupes souhaitant s'imprégner des Ardennes sur plusieurs jours. Le chalet événementiel vient compléter l'offre pour les réceptions et séminaires."
+      },
+      "2025": {
+        "title": "65 ans — et plus que jamais !",
+        "desc": "Le Val de la Cascade célèbre ses 65 ans d'existence. Six décennies de passion, d'accueil et de savoir-faire transmis de génération en génération. Philippe et Nathalie, épaulés par leur équipe, regardent l'avenir avec la même ardeur qu'au premier jour."
+      }
+    },
+    "philosophyTitle": "Notre Philosophie",
+    "philosophyPoints": [
+      "Des producteurs artisans locaux à l'honneur sur chaque assiette",
+      "Une carte qui évolue au fil des saisons, pour sublimer les produits du moment",
+      "Une recherche constante d'harmonie de saveurs — la signature de Philippe Constant",
+      "100 couverts accueillis avec la même attention, de la brasserie au gastronomique"
+    ],
+    "teamTitle": "L'Équipe",
+    "team": {
+      "philippe": {
+        "name": "Philippe Constant",
+        "role": "Chef & Patron",
+        "desc": "Fils du fondateur, Philippe a repris l'établissement à 22 ans. Passionné par les produits du terroir ardennais, il compose une cuisine de saison en partenariat avec les producteurs artisans de la région. Sa devise : l'harmonie des saveurs avant tout."
+      },
+      "nathalie": {
+        "name": "Nathalie Constant",
+        "role": "Directrice & Accueil",
+        "desc": "Bras droit indispensable de Philippe, Nathalie gère l'accueil, les réservations chambres, brasserie et restaurant, ainsi que l'ensemble de l'équipe. Sa chaleur et son professionnalisme font du Val de la Cascade une maison où l'on se sent toujours les bienvenus."
+      }
+    },
+    "contact": {
+      "address": "📍 Petit Coo 1, 4970 Stavelot, Belgique",
+      "phoneMail": "📞 +32 (0)80 68 40 78 · ✉️ info@valdelacascade.be",
+      "button": "Nous contacter"
+    }
+  },
+  "hotel": {
+    "main": {
+      "title": "L'Hôtel",
+      "subtitle": "Petit Coo 1, 4970 Stavelot",
+      "aubergeButton": "L'Auberge",
+      "hotelButton": "L'Hôtel — 18 chambres",
+      "gitesButton": "Les Gîtes",
+      "chaletButton": "Le Chalet événementiel",
+      "bookButton": "Réserver",
+      "closedNote": "Fermé le mercredi & jeudi"
+    },
+    "auberge": {
+      "title": "L'Auberge",
+      "subtitle": "Charme rustique & authenticité",
+      "ratesTitle": "Tarifs par nuitée",
+      "person1": "1 personne",
+      "person2": "2 personnes",
+      "infoNote": "💡 La <strong>demi-pension</strong> inclut le petit-déjeuner buffet + menu 3 services au restaurant.<br />Taxe de séjour : 3,50 € / nuit.",
+      "servicesTitle": "✦ Services inclus",
+      "services": [
+        "Accès WiFi gratuit",
+        "Parking à proximité",
+        "Accès jardin & terrasse",
+        "Animaux non admis (sauf gîtes spécifiés)"
+      ],
+      "bookButton": "Réserver"
+    },
+    "hotel": {
+      "title": "L'Hôtel",
+      "subtitle": "18 chambres, confort & vue sur les Ardennes",
+      "standardRoom": "Chambre Standard",
+      "twinRoom": "Chambre à 2 lits",
+      "bubbleRoom": "Chambre avec bain à bulles 🛁",
+      "person1": "1 personne",
+      "person2": "2 personnes",
+      "infoNote": "💡 <strong>Demi-pension</strong> = petit-déjeuner buffet + menu 3 services. Taxe de séjour : 3,50 €/nuit.<br />Petit-déjeuner seul : 18 € (adulte) · 13 € (7–15 ans) · 9 € (- de 6 ans)",
+      "bookButton": "Réserver"
+    },
+    "gites": {
+      "title": "Les Gîtes",
+      "subtitle": "Indépendance & immersion nature",
+      "items": [
+        {
+          "name": "La Petite Brique",
+          "capacity": "2 personnes · 1 chambre",
+          "price": "155 €",
+          "extras": "",
+          "desc": "Gîte intime et cosy, idéal pour un séjour en duo au cœur des Ardennes."
+        },
+        {
+          "name": "Chez Léon",
+          "capacity": "4 personnes · 2 chambres",
+          "price": "255 €",
+          "extras": "🐕 Chien admis · Jardin",
+          "desc": "Réparti sur rez-de-chaussée et 1er étage, avec lits doubles ou simples. Accès jardin."
+        },
+        {
+          "name": "Chez Marie",
+          "capacity": "6 personnes · 3 chambres",
+          "price": "355 €",
+          "extras": "🐕 Chien admis · Jardin",
+          "desc": "Sur 1er et 2e étages, lits doubles ou simples. Grand jardin pour profiter de la nature ardennaise."
+        },
+        {
+          "name": "Chez Ninine",
+          "capacity": "9 personnes · 4 chambres",
+          "price": "490 €",
+          "extras": "",
+          "desc": "Le plus grand de nos gîtes, parfait pour les familles ou groupes d'amis en quête d'une escapade en Ardenne."
+        }
+      ],
+      "infoNote": "Taxe de séjour : 3,50 €/nuit. Prix par nuitée, hors petit-déjeuner.<br />Réservation directe recommandée.",
+      "bookButton": "Réserver"
+    },
+    "chalet": {
+      "title": "Le Chalet",
+      "subtitle": "Événements & réceptions jusqu'à 80 personnes",
+      "capacity": "Jusqu'à 80 personnes",
+      "eventTypes": "Réceptions · Banquets · Conférences · Spectacles",
+      "equipmentsTitle": "Équipements inclus",
+      "equipments": [
+        "🔊 Sonorisation professionnelle",
+        "💡 Éclairage scénique",
+        "📽️ Matériel de projection",
+        "🌿 Terrasse extérieure aménageable",
+        "🍖 Possibilité barbecue & food truck",
+        "🎠 Plaine de jeux extérieure",
+        "🅿️ Parking à proximité"
+      ],
+      "serviceTitle": "Service bar & restaurant",
+      "serviceDesc": "Nos équipes assurent le service de restauration sur place — cocktail dînatoire, buffet, repas assis — selon vos souhaits.",
+      "infoNote": "Tarif sur devis selon la nature et la durée de l'événement.<br />Contactez Nathalie pour établir votre projet personnalisé.",
+      "quoteButton": "Demande de devis"
+    },
+    "booking": {
+      "title": "Réservation",
+      "sentTitle": "Demande envoyée !",
+      "sentDesc": "Nathalie et son équipe vous confirmeront votre réservation dans les plus brefs délais.",
+      "backToHome": "Retour à l'accueil",
+      "typeLabel": "Type d'hébergement",
+      "nameLabel": "Nom complet",
+      "emailLabel": "Email",
+      "datesLabel": "Dates souhaitées",
+      "personsLabel": "Nombre de personnes",
+      "sendButton": "Envoyer la demande",
+      "person": "personne",
+      "persons": "personnes",
+      "options": {
+        "auberge": "Auberge",
+        "hotel-std": "Hôtel — Chambre Standard",
+        "hotel-2lits": "Hôtel — Chambre 2 lits",
+        "hotel-bulles": "Hôtel — Chambre bain à bulles",
+        "gite-brique": "Gîte La Petite Brique (2p)",
+        "gite-leon": "Gîte Chez Léon (4p)",
+        "gite-marie": "Gîte Chez Marie (6p)",
+        "gite-ninine": "Gîte Chez Ninine (9p)",
+        "chalet": "Chalet événementiel"
+      }
+    }
+  },
+  "infos": {
+    "title": "Infos Utiles",
+    "monkeyHint": "<strong>Psst !</strong> Vous avez aimé votre séjour ?<br />👉 Laissez-nous un mot dans le <span style=\"color: #c8900a; font-weight: 'bold'\">Livre d'Or !</span> 📖",
+    "tabs": {
+      "schedules": "Horaires",
+      "activities": "Activités",
+      "faq": "FAQ",
+      "guestbook": "Livre d'Or"
+    },
+    "schedules": {
+      "title": "Horaires d'ouverture",
+      "hours": [
+        { "service": "Brasserie", "days": "Ven, Sam, Dim, Lun, Mar", "hours": "Service continu", "closed": false },
+        { "service": "Restaurant gastronomique", "days": "Ven, Sam, Dim, Lun, Mar", "hours": "Midi & soir", "closed": false },
+        { "service": "Fermeture hebdomadaire", "days": "⚠️ Mercredi & Jeudi", "hours": "Fermé", "closed": true },
+        { "service": "Check-in hôtel", "days": "", "hours": "dès 14h00", "closed": false },
+        { "service": "Check-out hôtel", "days": "", "hours": "avant 11h00", "closed": false }
+      ],
+      "seasons": {
+        "title": "Saisons",
+        "items": [
+          { "label": "Haute saison", "months": "Juil–Août & fêtes", "note": "Réservation indispensable", "color": "#7a1818" },
+          { "label": "Basse saison", "months": "Sep–Juin", "note": "Fermé mer. & jeu.", "color": "#c8900a" }
+        ]
+      },
+      "contact": {
+        "title": "Contact et accès",
+        "items": [
+          { "icon": "📍", "text": "Petit Coo 1, 4970 Stavelot, Belgique" },
+          { "icon": "📞", "text": "+32 (0)80 68 40 78" },
+          { "icon": "✉️", "text": "info@valdelacascade.be" },
+          { "icon": "📘", "text": "facebook.com/valdelacascade" },
+          { "icon": "📸", "text": "@val_de_la_cascade" }
+        ]
+      }
+    },
+    "activities": {
+      "title": "Découvrir les Ardennes",
+      "items": [
+        { "emoji": "💦", "name": "La Cascade de Coo", "desc": "La célèbre cascade de Coo est à deux pas ! Promenades au pied des chutes, accrobranche, karting et parc d'attractions du domaine de Coo." },
+        { "emoji": "🥾", "name": "Randonnées pédestres", "desc": "Des centaines de km de sentiers GR balisés au départ de Stavelot et de Coo. Les Hautes Fagnes (réserve naturelle classée UNESCO) à moins de 30 km." },
+        { "emoji": "🚵", "name": "VTT & Vélo", "desc": "Le RAVeL et les circuits VTT balisés des Ardennes partent à proximité. Cols, forêts centenaires, et panoramas sur la vallée de l'Amblève." },
+        { "emoji": "🎣", "name": "Pêche & nature", "desc": "La région est réputée pour la pêche à la truite dans l'Amblève et ses affluents. Permis de pêche disponible auprès des autorités locales." },
+        { "emoji": "🏊", "name": "Kayak & sports d'eau", "desc": "Descentes en kayak sur l'Amblève organisées par les prestataires locaux. Idéal pour les familles dès le printemps." },
+        { "emoji": "🍺", "name": "Abbayes et bières belges", "desc": "Trappiste de Rochefort (35 km), Val-Dieu (45 km), Orval (60 km) — les plus grandes abbayes brassicoles de Belgique sont à portée de voiture." },
+        { "emoji": "⛷️", "name": "Sports d'hiver", "desc": "Ski de fond, raquettes et luge à Baraque de Fraiture (25 km) dès que la neige pointe. En hiver, l'Ardenne revêt un manteau féerique." },
+        { "emoji": "🏰", "name": "Patrimoine & culture", "desc": "Abbaye de Stavelot (musée du circuit de Spa-Francorchamps !), Spa, les grottes de Han-sur-Lesse, le château de Bouillon." }
+      ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "items": [
+        { "q": "Quels sont les jours de fermeture ?", "a": "L'établissement est fermé le mercredi et le jeudi. Pour toute demande urgente, contactez-nous au +32 (0)80 68 40 78 ou par email à info@valdelacascade.be." },
+        { "q": "Comment réserver une chambre ou un gîte ?", "a": "Via notre formulaire in-app (Hôtel > Réserver), par téléphone au +32 (0)80 68 40 78, ou par email à info@valdelacascade.be. Nathalie et son équipe vous répondront rapidement." },
+        { "q": "Les animaux de compagnie sont-ils acceptés ?", "a": "Les chiens sont acceptés dans les gîtes 'Chez Léon' et 'Chez Marie', qui disposent d'un accès jardin. Merci de le préciser lors de la réservation." },
+        { "q": "La demi-pension, c'est quoi exactement ?", "a": "La demi-pension inclut le petit-déjeuner buffet + un menu 3 services au restaurant gastronomique. Le petit-déjeuner seul est à 18 € (adulte), 13 € (7–15 ans), 9 € (moins de 6 ans)." },
+        { "q": "Le restaurant est-il ouvert aux non-résidents ?", "a": "Oui, brasserie et restaurant sont ouverts à tous. Réservation fortement recommandée, surtout le week-end et en haute saison. Capacité : 100 couverts." },
+        { "q": "Le chalet est-il disponible pour des événements privés ?", "a": "Absolument ! Le chalet accueille jusqu'à 80 personnes pour réceptions, banquets, conférences et spectacles. Il est équipé de sonorisation, d'éclairage et de matériel de projection. Tarif sur devis : +32 (0)80 68 40 78." },
+        { "q": "Y a-t-il un parking sur place ?", "a": "Oui, un parking est disponible à proximité de l'établissement." },
+        { "q": "Où se situe le Val de la Cascade ?", "a": "Petit Coo 1, 4970 Stavelot, Belgique — à deux pas de la célèbre Cascade de Coo, au cœur des Ardennes liégeoises." }
+      ]
+    },
+    "guestbook": {
+      "title": "Livre d'Or ✨",
+      "subtitle": "Les témoignages de nos hôtes, publiés après modération.",
+      "submitted": "✅ Merci ! Votre commentaire sera publié après modération.",
+      "writeButton": "Écrire dans le Livre d'Or",
+      "form": {
+        "title": "Laisser un commentaire",
+        "nameLabel": "Votre prénom / nom",
+        "namePlaceholder": "Marie Dupont",
+        "ratingLabel": "Note",
+        "commentLabel": "Votre commentaire",
+        "commentPlaceholder": "Partagez votre expérience au Val de la Cascade...",
+        "sendButton": "Envoyer ✉️",
+        "cancelButton": "Annuler"
+      },
+      "initialComments": [
+        { "id": "1", "name": "Marie-Claire B.", "date": "2024-08-15", "text": "Séjour magique ! Les chambres sont magnifiques et la cuisine... un régal absolu. Le sanglier était divin. Nous reviendrons l'an prochain.", "rating": 5, "approved": true },
+        { "id": "2", "name": "Hans Mueller", "date": "2024-07-28", "text": "Wunderschöner Aufenthalt in dieser ruhigen Ecke der Ardennen. Das Frühstück war köstlich und das Personal sehr freundlich. Absolut empfehlenswert!", "rating": 5, "approved": true },
+        { "id": "3", "name": "Famille Dubois", "date": "2024-06-10", "text": "Nous avons passé 4 jours merveilleux avec nos enfants. Les gîtes sont parfaitement équipés et le cadre naturel est exceptionnel. Les enfants ont adoré la cascade !", "rating": 5, "approved": true },
+        { "id": "4", "name": "Peter Van den Berg", "date": "2024-09-03", "text": "Prachtige omgeving, vriendelijk personeel. Het restaurant is een echte ontdekking. De forel was subliem vers. We komen zeker terug!", "rating": 5, "approved": true }
+      ]
+    }
+  }
+}

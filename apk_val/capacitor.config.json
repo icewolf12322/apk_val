@@ -1,0 +1,8 @@
+{
+  "appId": "be.valdelacascade.app",
+  "appName": "Val de la Cascade",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

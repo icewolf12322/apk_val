@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Val de la Cascade</string>
+    <string name="title_activity_main">Val de la Cascade</string>
+    <string name="package_name">be.valdelacascade.app</string>
+    <string name="custom_url_scheme">be.valdelacascade.app</string>
+</resources>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Luckiest+Guy&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Pacifico&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Ranchers', cursive;
+  --font-heading: 'Luckiest Guy', cursive;
+  --font-body: 'Crimson Text', serif;
+  --font-script: 'Pacifico', cursive;
+
+  --color-parchment: #f5e4b4;
+  --color-parchment-dark: #e8d49a;
+  --color-maroon: #7a1818;
+  --color-maroon-dark: #4d1010;
+  --color-maroon-light: #9b2525;
+  --color-gold: #c8900a;
+  --color-gold-light: #e8c540;
+  --color-gold-bright: #ffd700;
+  --color-cream: #fdf5dd;
+  --color-brown: #4a2a0a;
+  --color-brown-light: #8b6030;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  background-color: #3d2008;
+  font-family: 'Crimson Text', serif;
+  overflow-x: hidden;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fly-right {
+  0% { transform: translateX(-120px); }
+  100% { transform: translateX(calc(100vw + 120px)); }
+}
+
+@keyframes fly-left {
+  0% { transform: translateX(calc(100vw + 120px)) scaleX(-1); }
+  100% { transform: translateX(-120px) scaleX(-1); }
+}
+
+@keyframes duck-hit {
+  0% { transform: scale(1) rotate(0deg); opacity: 1; }
+  50% { transform: scale(1.4) rotate(20deg); opacity: 0.7; }
+  100% { transform: scale(0) rotate(45deg); opacity: 0; }
+}
+
+@keyframes coin-pop {
+  0% { transform: translateY(0) scale(0); opacity: 1; }
+  100% { transform: translateY(-60px) scale(1.2); opacity: 0; }
+}
+
+@keyframes star-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
