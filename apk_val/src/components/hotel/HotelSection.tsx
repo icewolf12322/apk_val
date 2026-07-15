@@ -263,6 +263,7 @@ function ChaletPage({ onBack }: { onBack: () => void }) {
 function BookingPage({ onBack }: { onBack: () => void }) {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
   const [dates, setDates] = useState('')
   const [persons, setPersons] = useState('2')
   const [type, setType] = useState('hotel')
@@ -318,6 +319,9 @@ function BookingPage({ onBack }: { onBack: () => void }) {
       <label style={labelStyle}>Email</label>
       <input style={inputStyle} value={email} onChange={e => setEmail(e.target.value)} placeholder="marie@exemple.be" type="email" />
 
+      <label style={labelStyle}>Téléphone</label>
+      <input style={inputStyle} value={phone} onChange={e => setPhone(e.target.value)} placeholder="+32 4 12 34 56 78" type="tel" />
+
       <label style={labelStyle}>Dates souhaitées</label>
       <input style={inputStyle} value={dates} onChange={e => setDates(e.target.value)} placeholder="ex : du 15 au 18 août 2025" />
 
@@ -329,7 +333,7 @@ function BookingPage({ onBack }: { onBack: () => void }) {
       </select>
 
       <div style={{ marginTop: 20 }}>
-        <CartoonButton icon="✉️" onClick={() => setSent(true)} disabled={!name || !email}>
+        <CartoonButton icon="✉️" onClick={() => setSent(true)} disabled={!name || !email || !phone}>
           Envoyer la demande
         </CartoonButton>
       </div>
