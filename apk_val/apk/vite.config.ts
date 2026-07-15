@@ -1,11 +1,26 @@
 import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+import fs from 'node:fs'
 import path from 'node:path'
 
-import siteConfiguration from './.figma/make/site.json'
+const siteConfiguration = loadSiteConfiguration()
 
 const isFigmaSandbox = process.env.FIGMA === '1' || process.env.FIGMA === 'true'
+
+function loadSiteConfiguration(): FigmaSiteConfiguration {
+  const siteConfigPath = path.resolve(__dirname, './.figma/make/site.json')
+  if (!fs.existsSync(siteConfigPath)) {
+    return {}
+  }
+
+  try {
+    const raw = fs.readFileSync(siteConfigPath, 'utf-8')
+    return JSON.parse(raw) as FigmaSiteConfiguration
+  } catch {
+    return {}
+  }
+}
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig({

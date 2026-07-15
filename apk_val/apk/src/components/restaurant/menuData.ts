@@ -209,3 +209,79 @@ export const FULL_MENU: MenuSection[] = [
     ],
   },
 ]
+
+export interface RestaurantAllergen {
+  id: number
+  emoji: string
+  description: string
+}
+
+export interface RestaurantMenuItem {
+  id: string
+  name: string
+  description: string
+  price: number
+  allergenRefs: number[]
+}
+
+export interface RestaurantMenuSection {
+  id: string
+  title: string
+  items: RestaurantMenuItem[]
+}
+
+export const restaurantAllergens: RestaurantAllergen[] = [
+  { id: 1, emoji: '🥛', description: 'Lait et lactose' },
+  { id: 2, emoji: '🍞', description: 'Gluten' },
+  { id: 3, emoji: '🥚', description: 'Oeufs' },
+  { id: 4, emoji: '🦐', description: 'Crustaces' },
+  { id: 5, emoji: '🐟', description: 'Poissons' },
+  { id: 6, emoji: '🌰', description: 'Fruits a coque' },
+]
+
+function parseEuroPrice(value: string): number {
+  const parsed = Number.parseFloat(value.replace(',', '.'))
+  return Number.isFinite(parsed) ? parsed : 0
+}
+
+function slugify(value: string): string {
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+function mapMenuItems(items: MenuItem[]): RestaurantMenuItem[] {
+  return items.map((item, index) => ({
+    id: `${slugify(item.nameFr)}-${index + 1}`,
+    name: item.nameFr,
+    description: item.descriptions.fr,
+    price: parseEuroPrice(item.price),
+    allergenRefs: [],
+  }))
+}
+
+export const restaurantMenuSections: RestaurantMenuSection[] = [
+  {
+    id: 'moules-en-saison',
+    title: 'Moules en saison',
+    items: mapMenuItems(SUGGESTIONS),
+  },
+  {
+    id: 'nos-entrees-froides',
+    title: FULL_MENU[0]?.titleFr ?? 'Nos entrees froides',
+    items: mapMenuItems(FULL_MENU[0]?.items ?? []),
+  },
+  {
+    id: 'nos-viandes',
+    title: FULL_MENU[1]?.titleFr ?? 'Nos viandes',
+    items: mapMenuItems(FULL_MENU[1]?.items ?? []),
+  },
+  {
+    id: 'les-desserts',
+    title: FULL_MENU[2]?.titleFr ?? 'Les desserts',
+    items: mapMenuItems(FULL_MENU[2]?.items ?? []),
+  },
+]
