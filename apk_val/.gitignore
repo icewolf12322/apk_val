@@ -1,14 +1,36 @@
-node_modules
+# Node / Vite
+node_modules/
+apk/node_modules/
+dist/
+apk/dist/
+.vite/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+*.nuget.cache
+*.nupkg
+
+# Generated source/cache metadata (typically under obj)
+**/obj/**/*.g.cs
+**/obj/**/*.sourcelink.json
+**/obj/**/*.GeneratedMSBuildEditorConfig.editorconfig
 
 # Gradle files
 .gradle/
 build/
+apk/android/.gradle/
+apk/android/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
 
 # Log/OS Files
 *.log
+*.tmp
 
 # Android Studio generated files and folders
 captures/
@@ -24,6 +46,10 @@ output-metadata.json
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+
+# VS Code / local tooling
+.DS_Store
+Thumbs.db
 
 # Keystore files
 *.jks

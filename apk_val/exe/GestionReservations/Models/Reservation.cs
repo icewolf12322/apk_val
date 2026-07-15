@@ -19,10 +19,10 @@ namespace GestionReservations.Models
     public class Reservation
     {
         public int Id { get; set; }
-        public string ClientNomComplet { get; set; }
+        public required string ClientNomComplet { get; set; }
         public DateTime DateArrivee { get; set; }
         public DateTime DateDepart { get; set; }
-        public string TypeChambre { get; set; }
+        public required string TypeChambre { get; set; }
         public int NombrePersonnes { get; set; }
         public ReservationStatus Statut { get; set; }
     }

@@ -1,0 +1,68 @@
+﻿{
+    "generatedAt":  "2026-07-15T04:09:51",
+    "root":  "D:\\apk_val\\apk_val",
+    "apk":  {
+                "root":  "apk",
+                "keyFiles":  [
+                                 "apk/package.json",
+                                 "apk/vite.config.ts",
+                                 "apk/capacitor.config.json",
+                                 "apk/src/App.tsx",
+                                 "apk/src/main.tsx"
+                             ]
+            },
+    "exe":  {
+                "root":  "exe/GestionReservations",
+                "project":  "exe/GestionReservations/GestionReservations.csproj",
+                "layers":  {
+                               "models":  [
+                                              "AppSettings.cs",
+                                              "Client.cs",
+                                              "Reservation.cs",
+                                              "ReservationRequest.cs",
+                                              "TranslationEntry.cs"
+                                          ],
+                               "services":  [
+                                                "AppDbContext.cs",
+                                                "ArchivedReservationCleanupService.cs",
+                                                "ICloudStorageService.cs",
+                                                "IPdfGenerationService.cs",
+                                                "ISettingsService.cs",
+                                                "JsonSettingsService.cs",
+                                                "MockCloudStorageService.cs",
+                                                "QuestPdfService.cs",
+                                                "ReservationListenerService.cs"
+                                            ],
+                               "viewModels":  [
+                                                  "ClientsViewModel.cs",
+                                                  "MainWindowViewModel.cs",
+                                                  "ReservationCardViewModel.cs",
+                                                  "ReservationsViewModel.cs",
+                                                  "SettingsViewModel.cs",
+                                                  "TranslationsViewModel.cs"
+                                              ],
+                               "views":  [
+                                             "ReservationsView.xaml",
+                                             "SettingsView.xaml",
+                                             "SettingsView.xaml.cs",
+                                             "TranslationsView.xaml",
+                                             "TranslationsView.xaml.cs",
+                                             "ClientsView.xaml",
+                                             "ClientsView.xaml.cs"
+                                         ],
+                               "documents":  "ReservationConfirmationDocument.cs"
+                           }
+            },
+    "serveur":  {
+                    "root":  "serveur",
+                    "mode":  "embedded-in-exe",
+                    "endpoint":  "http://localhost:5001/webhook/reservation"
+                },
+    "compileurs":  {
+                       "root":  "compileurs",
+                       "scripts":  [
+                                       "compileurs/Build-All.ps1",
+                                       "compileurs/Generate-InfrastructureMap.ps1"
+                                   ]
+                   }
+}

@@ -19,7 +19,9 @@ namespace GestionReservations.ViewModels
     public partial class TranslationsViewModel : ObservableObject
     {
         private readonly ICloudStorageService _cloudStorageService;
-        private const string CommonJsonPath = @"d:\apk_val\apk_val\src\locales\fr\common.json";
+        // From exe/GestionReservations/bin/... -> go up to repository root, then apk/src/locales/fr/common.json
+        private static readonly string CommonJsonPath = Path.GetFullPath(
+            Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "apk", "src", "locales", "fr", "common.json"));
         private JsonNode? _rootNode;
 
         public ObservableCollection<TranslationEntry> Entries { get; } = new();

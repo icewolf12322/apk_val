@@ -10,17 +10,17 @@ namespace GestionReservations.Models
     public class ReservationRequest
     {
         [Required]
-        public string ClientNomComplet { get; set; }
+        public required string ClientNomComplet { get; set; }
 
         [Required]
         [EmailAddress]
-        public string ClientEmail { get; set; }
+        public required string ClientEmail { get; set; }
 
-        public string ClientTelephone { get; set; }
+        public string? ClientTelephone { get; set; }
 
         public DateTime DateArrivee { get; set; }
         public DateTime DateDepart { get; set; }
-        public string TypeChambre { get; set; }
+        public required string TypeChambre { get; set; }
         public int NombrePersonnes { get; set; }
     }
 }

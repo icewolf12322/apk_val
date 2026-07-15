@@ -11,11 +11,11 @@ A Vite development server is **always running** on `$PORT` (default 8443). You d
 
 ## Key Files
 
-- `src/App.tsx` - Main application component
-- `src/main.tsx` - React entry point
-- `src/index.css` - Global styles and Tailwind CSS import
-- `package.json` - Dependencies and scripts
-- `vite.config.ts` - Vite configuration
+- `apk/src/App.tsx` - Main application component
+- `apk/src/main.tsx` - React entry point
+- `apk/src/index.css` - Global styles and Tailwind CSS import
+- `apk/package.json` - Dependencies and scripts
+- `apk/vite.config.ts` - Vite configuration
 - `.mise.toml` - Toolchain versions (Node.js, pnpm)
 
 ## Styling
