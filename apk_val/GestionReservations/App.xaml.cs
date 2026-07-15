@@ -1,4 +1,4 @@
-﻿using GestionReservations.Services;
+﻿﻿using GestionReservations.Services;
 using GestionReservations.ViewModels;
 using QuestPDF.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,11 +21,13 @@ namespace GestionReservations
                 .ConfigureServices((context, services) =>
                 {
                     // Enregistre le DbContext pour l'injection de dépendances
+                    services.AddSingleton<ISettingsService, JsonSettingsService>();
                     services.AddSingleton<ICloudStorageService, MockCloudStorageService>();
                     services.AddDbContext<AppDbContext>();
                     services.AddSingleton<IPdfGenerationService, QuestPdfService>();
 
                     // Enregistre notre service d'écoute comme un service hébergé (tourne en fond)
+                    services.AddHostedService<ArchivedReservationCleanupService>();
                     services.AddHostedService<ReservationListenerService>();
 
                     // Enregistrement des fenêtres, ViewModels et autres services
@@ -43,6 +45,10 @@ namespace GestionReservations
         protected override async void OnStartup(StartupEventArgs e)
         {
             await _host.StartAsync();
+
+            // Charger les paramètres au démarrage avant que les autres services ne les utilisent
+            var settingsService = _host.Services.GetRequiredService<ISettingsService>();
+            await settingsService.LoadSettingsAsync();
 
             var mainWindow = _host.Services.GetRequiredService<MainWindow>(); // MainWindow va recevoir son ViewModel par DI
             mainWindow.Show();

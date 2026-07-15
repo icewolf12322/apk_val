@@ -20,13 +20,13 @@
             <views:ReservationsView/>
         </DataTemplate>
         <DataTemplate DataType="{x:Type viewModels:ClientsViewModel}">
-            <TextBlock Text="Module Clients (à implémenter)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Foreground="{DynamicResource MaterialDesignBodyLight}"/>
+            <views:ClientsView />
         </DataTemplate>
         <DataTemplate DataType="{x:Type viewModels:TranslationsViewModel}">
-            <views:TranslationsView />
+            <views:TranslationsView/>
         </DataTemplate>
         <DataTemplate DataType="{x:Type viewModels:SettingsViewModel}">
-            <TextBlock Text="Module Paramètres (à implémenter)" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Foreground="{DynamicResource MaterialDesignBodyLight}"/>
+            <views:SettingsView />
         </DataTemplate>
     </Window.Resources>
     <Grid>
